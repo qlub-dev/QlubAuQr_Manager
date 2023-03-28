@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dynamicqr",
+  "private_key_id": "43f4129605093dce8ed8323d9d51ee0d99d2154a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCx17Ke6SS5VYVx\nmR2LU6M9mmgjlEcDUDGtbwqS+ULyQ13PcWcYKV+V3ACKUBI8PAeKhFT5Kagznhv2\nN7Z+SOWFMq5sLyJtWQ0uSqj11Pmj5mireFmrqIkJK6ZrhwBI2GY2zpKVJra6L6uA\nWoxrdZmFzIM4gAJljnf8d2r2G07I/mY4j1FqNUPzT1Y+U/o7SRUluhqv8VefUek2\n+1dl8oSKoNSGrNR79oTzg67OIN9S2XZu+WG83k2tZUH3NlZ0ip/BH4cJOQSXR6q2\nYGVRge7f5vZ6zaeEPHbn6lg37YYI5WV4uogee7PE4LT+C77EB2fM4aMyTh4ZFOp7\nGzx5YRuxAgMBAAECggEAKpQotxy9NuVHn4DH/stdxjpBbCFMVjn9RteS2cj1cxDX\ndTrisrl3IedMNtFAaGz75jlUKdqEI6Wbbrn8hqQ31YniklK/pJwBSJ/F76OXyFq6\nHTGhkHR3qLsra0ulcQtkf4M6O50K+y0+G6syOukrQkpKcXzOdhej2Q2TTYyQspS1\nLRTEGT8z643Zjh0FQkvYPj6XofXmGJld5xmeYu8QDf6ygvrCKajin+XQS3XV7Qqo\nVDbnA0v5MrVspODCCAp7t5ZtUzM3i5EX/pnMOii8RqGpG/JwKTEz1qOlAnb/Wohx\njL+Xm9cADuH1QgS9irctKo03DvTh1OUzuEIGbCEFFQKBgQDwEstJ1gahtYCXgarP\nJ1kLi05FSMe+HjlwE0mthEEVCqf4DFveWsEosLTNzTn9MP6wHukjsvT2PJMifBRX\nmdij/f7cEdrZUsZDim34CxMpgVaPFBdrrW1w0HMzA7SHSCw/+4giK+EXtzkcShKH\ntvOzeHIFz2Ihs7GIKG0dMsLZ/QKBgQC9pAbtgKwYla157oHNKmkMO4vNK8hD82Kc\nL3Hc13wPYZSm/CyAotda2m15Iak1h7bI/ZTewgfHJh519rTx+w1rKH0I1aSyPWTQ\nPk8obd0JA9XiCa9gHkOTd3o35UCOYWExce/czU8ymNDu5sV3QsZ+dPiBxAxMPzng\nPtYyp+2MxQKBgQDuid4QCWchelTBNYfguToS7GHjGcPONf3gTGnizQxVufbX0n/d\n2dMfeSTNcGN0HiCSIsSIQiKAIAQaOauEt0q494EqbVtEoKh7J6rI0UhC705wcAgt\nZ27cr2IniEDyQlYlZOoI+gx4IgfPAhKTYseWxdCV0U+yKPf3UCPK5UsSiQKBgFY3\nU1r4y8Tlj5fGokaHSHjiPX3KsOKLrUI6o7Z2VRWdFHsSXJ0i62uHsIuIjSgkCiq4\nds0LQ4P7xY912O/GZmRYZPf2QUkzdjjiixRjVkE5+CwqoQu+1pQdlngBBud0SD61\ngQpOYPos1Zg3XIEK37kwLqa4Xarwd7yGdNVU2T/NAoGAVGPH2PsTcf+HMTH6Ro6A\n+dBpif4htAYd/0xOrzHtHAlQjFQe3qSiniEu58wxs0WM7jlPN5rCuzlV1bFWhEdl\nEnV9Xt11UJp9pkH716ACnFDa4dpiYuHXuMMN8JfP6sTHpSFAfa+PtlEhB3OKbcLz\n3eVuEyuRf59AH9z7BNzPKHA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "qlub-dynamic-qr@dynamicqr.iam.gserviceaccount.com",
+  "client_id": "105724819430203070757",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/qlub-dynamic-qr%40dynamicqr.iam.gserviceaccount.com"
+}
