@@ -1,10 +1,11 @@
 import json
 from github import Github as gh
+import streamlit as st
 from github import Repository
 from functools import cache
 import requests
 
-git = gh("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")
+git = gh(st.secrets.github_secrets.PAT)
 
 
 @cache
@@ -15,7 +16,7 @@ def return_repo() -> Repository:
 def run_workflow() -> bool:
     header = {
         "Accept": "application/vnd.github+json",
-        "Authorization": "Bearer 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",
+        "Authorization": f"Bearer {st.secrets.github_secrets.AccessToken}",
         "X-GitHub-Api-Version": "2022-11-28",
     }
 
