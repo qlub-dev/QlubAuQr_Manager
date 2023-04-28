@@ -1,3 +1,4 @@
+import gspread
 import streamlit as st
 from gs_utils import (
     returnGSheet,
@@ -13,17 +14,15 @@ def main():
     submit_button = st.button("Submit")
 
     if submit_button and sheet_name:
-        conn = returnGSheet()
+        gsheet = returnGSheet()
         try:
-            sheet = conn.get_worksheet(sheet_name)
-        except Exception:
+            sheet = gsheet.worksheet(sheet_name)
+        except gspread.WorksheetNotFound:
             st.error(f"Worksheet '{sheet_name}' not found.")
             return
         repo = return_repo()
         try:
-            rows = conn.select(f'SELECT * FROM "{sheet_name}"')
-            records = [dict(row) for row in rows]
-            bulkCreateAndChangeURl(records, sheet_name, repo, command)
+            bulkCreateAndChangeURl(sheet.get_all_records(), sheet, repo, command)
             st.success("Operation completed successfully!")
         except Exception as e:
             st.error(f"failed to {command} the sheet, got {e}")
