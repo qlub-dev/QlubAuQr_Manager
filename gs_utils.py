@@ -37,7 +37,7 @@ def bulkCreateAndChangeURl(
     if not qrIdsList:
         return
     for qrIds in qrIdsList:
-        if qrIds.get("LandingURL") != "":
+        if qrIds.get("LandingURL") != "" and qrIds.get("Replaced") != "Yes":
             if command == "upload":
                 repo.create_file(
                     path=f'au/{qrIds.get("Ids")}.html',
