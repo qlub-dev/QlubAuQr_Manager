@@ -56,13 +56,13 @@ def bulkCreateAndChangeURl(
                     branch="main",
                 )
 
-        retry = True
-        initial_time = 2
-        while retry:
-            try:
-                cell = sheet.find(f"{qrIds.get('Ids')}")
-                sheet.update_cell(cell.row, 4, "Yes")
-                retry = False
-            except gspread.exceptions.APIError:
-                time.sleep(initial_time)
-                initial_time = initial_time * 2 if initial_time < 60 else 10
+            retry = True
+            initial_time = 2
+            while retry:
+                try:
+                    cell = sheet.find(f"{qrIds.get('Ids')}")
+                    sheet.update_cell(cell.row, 4, "Yes")
+                    retry = False
+                except gspread.exceptions.APIError:
+                    time.sleep(initial_time)
+                    initial_time = initial_time * 2 if initial_time < 60 else 10

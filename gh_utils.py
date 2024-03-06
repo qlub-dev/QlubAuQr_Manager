@@ -25,7 +25,7 @@ def run_workflow() -> bool:
     }
 
     wf_response = requests.post(
-        "https://api.github.com/repos/qlub-dev/l-qlub-io/actions/workflows/48694456/dispatches",
+        "https://api.github.com/repos/qlub-dev/l-qlub-io/actions/workflows/80082819/dispatches",
         headers=header,
         data=json.dumps(data),
     )
